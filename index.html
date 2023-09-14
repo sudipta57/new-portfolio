@@ -14,7 +14,7 @@
     <div id="header">
       <div class="container">
         <nav>
-          <img src="/images/logo.png" class="logo" />
+          <h2><span>S</span>u<span>D</span>i<span>P</span>t<span>A</span></h2>
           <ul id="sidemenu">
             <li><a href="#header">HOME</a></li>
             <li><a href="#about">ABOUT ME</a></li>
@@ -26,7 +26,7 @@
           <i class="fa-solid fa-bars" " onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <p>UI/UX Designer</p>
+          <p>Web Developer</p>
           <h1>
             Hi, i am <span>Sudipta</span> <br />
             Gh from india
@@ -38,7 +38,7 @@
     <div id="about">
       <div class="container">
         <div class="row">
-          <div class="about-col-1"><img src="images/user.png" alt="" /></div>
+          <div class="about-col-1"><img src="images/sud1.jpeg" alt="" /></div>
           <div class="about-col-2">
             <h1 class="sub-title">About me</h1>
             <p>
@@ -70,19 +70,17 @@
             </div>
             <div class="tab-contents" id="experience">
               <ul>
-                <li><span>UI?UX</span><br />Designing Web/App interfaces</li>
-                <li><span>Web Development </span><br />Web app Development</li>
-                <li>
-                  <span>App Development</span><br />Building Android/ios apps
-                </li>
+                <li><span>6-months</span><br />i have learned c from my school teacher</li>
+                <li><span>Then learned from youtube</span><br />Web app Development</li>
+                
               </ul>
             </div>
             <div class="tab-contents" id="education">
               <ul>
-                <li><span>UI?UX</span><br />Designing Web/App interfaces</li>
-                <li><span>Web Development </span><br />Web app Development</li>
+                <li><span>Currently 11th</span><br />Currently i'm persuing 10+1.</li>
+                <li><span>I have completed 10th from wbbse </span><br />In future i want to be a good A.I. developer</li>
                 <li>
-                  <span>App Development</span><br />Building Android/ios apps
+                  <span>Preparing for JEE also</span><br /> And i am learning web Development well.
                 </li>
               </ul>
             </div>
@@ -135,13 +133,13 @@
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
           <div class="work">
-            <img src="images/work-1.png" alt="">
+            <img src="images/thumb2.jpg">
             <div class="layer">
               <h3>Social Media App</h3>
               <p>The app connects you to the talented people around the world.
                 Download It from play store.
               </p>
-              <a href="#"><i class="fa-solid fa-link"></i></a>
+              <a href="https://sudiptablogger-git-main-sudipta57.vercel.app" target="_blank"><i class="fa-solid fa-link" ></i></a>
             </div>
           </div>
           <div class="work">
@@ -177,14 +175,15 @@
       <div class="row">
         <div class="contact-left">
           <h1 class="sub-title">Contact Me</h1>
-          <p>xontact@example.com</p>
-          <p>123457356</p>
+          <p><i class="fa-solid fa-envelope"></i>ghoramisudipta32@gmail.com</p>
+          
+          <p><i class="fa-solid fa-phone"></i> 123457356</p>
           <div class="social-icons">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100083116548901&mibextid=D4KYlr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="example-2.txt" download><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://instagram.com/itz_sudipta_prince?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           </div>
-          <a href="/images/my-cv.pdf" download class="btn btn-2">Download Cv</a>
+          <a href="example.txt" download class="btn btn-2">Download Cv</a>
         </div>
         <div class="contact-right">
           <form  name="submit-to-google-sheet">
@@ -212,8 +211,8 @@
         for (tablink of tablinks) {
           tablink.classList.remove("active-link");
         }
-        for (tabcontents of tabcontents) {
-          tabcontents.classList.remove("active-tab");
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
         }
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
@@ -233,10 +232,6 @@
   }
 </script>
 
-<form name="submit-to-google-sheet">
-  <input name="email" type="email" placeholder="Email" required>
-  <button type="submit">Send</button>
-</form>
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxSv5AwGxMZ-IDWLkB5hw1343MLhEt7f9MYlX2zuuPXSRpl8Hv7oiPKB6vYRZ3krhyM/exec'
